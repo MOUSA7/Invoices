@@ -23,6 +23,7 @@
                             <div class="col-sm-6">
                                 <input type="date" v-if="moode" v-model="invoice.date" class="form-control"
                                        placeholder="Invoice Date">
+
                                 <div v-else><span>@{{ invoice.date }}</span></div>
                                 <br>
                                 <select v-if="moode" v-model="invoice.user_id" class="form-control" id="">
